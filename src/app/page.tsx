@@ -6,13 +6,15 @@ const Main = () => {
           <h1>Lets Work{" "}
             <span className="text-[#FF5C00]">Together !</span>
           </h1>
-          <h1 className="mt-5">
-            Hi From{" "}
-            <span className="text-[#FF5C00]">Thanawat{" "}</span>
-            <span>{" "},</span>
+          <div>
+            <h1 className="mt-5">
+              Hi From{" "}
+              <span className="text-[#FF5C00]">Thanawat{" "}</span>
+              <span>{" "},</span>
+            </h1>
             <h1>Interactive Designer & Fullstack</h1>
             <h1>Web Developer</h1>
-          </h1>
+          </div>
           <h1 className="text-2xl mt-7">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime tempora at neque a adipisci nulla voluptatem? Mollitia, officiis, architecto earum voluptates obcaecati corrupti voluptatem .
           </h1>
