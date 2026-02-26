@@ -1,6 +1,7 @@
 import { FaInstagram, FaLinkedin, FaGoogle, FaFacebook } from "react-icons/fa";
 import { AiOutlineX } from "react-icons/ai";
 import Link from "next/link";
+import Image from "next/image";
 
 const MyCard = () => {
   return (
@@ -11,7 +12,9 @@ const MyCard = () => {
           <h1 className="text-white">hanawat</h1>
         </div>
         {/*ส่วนรูปโปรไฟล*/}
-        <div className="bg-amber-50 absolute top-[67px] h-[324px] w-[325px] rounded-2xl"></div>
+        <div className="bg-amber-50 absolute top-[67px] h-[324px] w-[325px] rounded-2xl">
+          <Image src="/larva.jpg" alt="Profile" layout="fill" objectFit="cover" className="rounded-2xl"/>
+        </div>
         <h1 className="text-white absolute top-[399px] text-[24px]">STD ID:6519410033</h1>
         <h1 className="text-[#7D7373] absolute top-[439px] text-[20px]">Fullstack Web Developer</h1>
         <div className="text-white text-[40px] absolute top-[509px] flex space-x-[28px]">
