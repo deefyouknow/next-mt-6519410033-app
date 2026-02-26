@@ -27,7 +27,7 @@ export default function RootLayout({
             {children}
             <div className="sm:w-[60px]"></div>
           </div>
-          <div className="absolute right-0 translate-x-[100%] sm:translate-x-[100] duration-300">
+          <div className="absolute right-0  duration-300">
             <SideMenu />
           </div>
         </div>
